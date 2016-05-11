@@ -2,7 +2,7 @@
 
 This setup involves using webpack and several loaders to transform JSX/ES 2015 to ES5 code. By using webpack JavaScript modules can be loaded using [ES 2015 module format](https://github.com/lukehoban/es6features#modules) (commonJS behind the scenes), properly transformed, then bundled.
 
-We'll create this setup in 7 steps.
+We'll create this setup in 7 steps (or clone/download this code and skip to the last step).
 
 ### Step 1: Verify Node.js and npm then install global packages
 
