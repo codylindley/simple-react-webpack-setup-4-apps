@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "webpack": "webpack --watch",
+    "server": "browser-sync --port 4000 start --server --files \"**/*.html\" \"build/**/*.css\" \"build/**/*.js\" "
+  },
+  "devDependencies": {
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "browser-sync": "^2.12.7",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "@telerik/kendo-react-buttons": "^0.1.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
