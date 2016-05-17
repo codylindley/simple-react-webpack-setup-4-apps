@@ -2,7 +2,12 @@
 
 This setup involves using webpack and several loaders to transform JSX/ES 2015 to ES5 code. By using webpack JavaScript modules can be loaded using [ES 2015 module format](https://github.com/lukehoban/es6features#modules) (commonJS behind the scenes), properly transformed, then bundled.
 
-We'll create this setup in seven steps. Or, [clone/download](https://github.com/codylindley/simple-react-webpack-setup-4-apps) this code then run `npm install`. Next follow step 1, then skip to the last step.
+We'll create this setup in seven steps. Or, follow the four steps below which uses a Github repo to speed up this setup.
+
+1. [Clone/download](https://github.com/codylindley/simple-react-webpack-setup-4-apps) code
+2. Follow step 1
+3. Run npm install from the cloned directory
+4. Follow last step
 
 ### Step 1: Verify Node.js and npm then install global packages
 
